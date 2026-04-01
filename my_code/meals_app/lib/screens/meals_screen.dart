@@ -35,13 +35,13 @@ class MealsScreen extends StatelessWidget {
               children: [
                 Text('Doh..',
                     style: Theme.of(context).textTheme.headlineLarge!.copyWith(
-                        color: Theme.of(context).colorScheme.onBackground)),
+                        color: Theme.of(context).colorScheme.onSurface)),
                 const SizedBox(
                   height: 16,
                 ),
                 Text('Try again',
                     style: Theme.of(context).textTheme.bodyLarge!.copyWith(
-                        color: Theme.of(context).colorScheme.onBackground)),
+                        color: Theme.of(context).colorScheme.onSurface)),
               ],
             ),
           );
