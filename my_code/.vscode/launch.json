@@ -1,0 +1,150 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+
+        {
+            "name": "dice_app",
+            "cwd": "dice_app",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "dice_app (profile mode)",
+            "cwd": "dice_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug"
+        },
+        {
+            "name": "dice_app (release mode)",
+            "cwd": "dice_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "expense_tracker",
+            "cwd": "expense_tracker",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "expense_tracker (profile mode)",
+            "cwd": "expense_tracker",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "expense_tracker (release mode)",
+            "cwd": "expense_tracker",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "favorite_places",
+            "cwd": "favorite_places",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "favorite_places (profile mode)",
+            "cwd": "favorite_places",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "favorite_places (release mode)",
+            "cwd": "favorite_places",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "first_app",
+            "cwd": "first_app",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "first_app (profile mode)",
+            "cwd": "first_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "first_app (release mode)",
+            "cwd": "first_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "meals_app",
+            "cwd": "meals_app",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "meals_app (profile mode)",
+            "cwd": "meals_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "meals_app (release mode)",
+            "cwd": "meals_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "quiz_app",
+            "cwd": "quiz_app",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "quiz_app (profile mode)",
+            "cwd": "quiz_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "quiz_app (release mode)",
+            "cwd": "quiz_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "shopping_list",
+            "cwd": "shopping_list",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "shopping_list (profile mode)",
+            "cwd": "shopping_list",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "shopping_list (release mode)",
+            "cwd": "shopping_list",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

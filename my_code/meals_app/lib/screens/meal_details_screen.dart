@@ -73,7 +73,7 @@ class MealsDetailsScreen extends ConsumerWidget {
               Text(
                 ingredient,
                 style: Theme.of(context).textTheme.bodyMedium!.copyWith(
-                      color: Theme.of(context).colorScheme.onBackground,
+                      color: Theme.of(context).colorScheme.onSurface,
                     ),
               ),
             const SizedBox(height: 24),
@@ -92,7 +92,7 @@ class MealsDetailsScreen extends ConsumerWidget {
                   textAlign: TextAlign.center,
                   step,
                   style: Theme.of(context).textTheme.bodyMedium!.copyWith(
-                        color: Theme.of(context).colorScheme.onBackground,
+                        color: Theme.of(context).colorScheme.onSurface,
                       ),
                 ),
               ),

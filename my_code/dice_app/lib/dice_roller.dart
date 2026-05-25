@@ -1,5 +1,4 @@
 import 'dart:math';
-
 import 'package:flutter/material.dart';
 
 final randomizer = Random();
@@ -34,12 +33,18 @@ class _DiceRollerState extends State<DiceRoller> {
       // mainAxisAlignment: MainAxisAlignment.center,
       mainAxisSize: MainAxisSize.min,
       children: [
-        Image.asset('assets/images/dice-$currentDiceRoll.png', width: 200),
+        IconButton(
+          onPressed: rollDice,
+          icon: Image.asset('assets/images/dice-$currentDiceRoll.png', width: 200),
+          color: Colors.white,
+          iconSize: 50,
+        ),
+        // Image.asset('assets/images/dice-$currentDiceRoll.png', width: 200),
         const SizedBox(height: 20),
         TextButton(
           onPressed: rollDice,
           style: TextButton.styleFrom(
-            // padding: const EdgeInsets.only(top: 20),
+            // padding: const EdgeInsets.only(top: 20), // used SizedBox instead
             foregroundColor: Colors.white,
             textStyle: const TextStyle(fontSize: 28),
           ),
@@ -49,3 +54,4 @@ class _DiceRollerState extends State<DiceRoller> {
     );
   }
 }
+     

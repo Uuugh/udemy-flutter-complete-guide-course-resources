@@ -108,7 +108,7 @@ class _NewItemState extends State<NewItem> {
                   ),
                   Expanded(
                     child: DropdownButtonFormField(
-                      value: _selectedCategory,
+                      initialValue: _selectedCategory,
                       items: [
                         for (final category in categories.entries)
                           DropdownMenuItem(
