@@ -14,7 +14,8 @@ class ResultsScreen extends StatelessWidget {
   final List<String> chosenAnswers;
   final VoidCallback onRestartQuiz; // final void Function() onRestartQuiz;
 
-  List<Map<String, Object>> getSummaryData() {
+  // List<Map<String, Object>> getSummaryData() {
+  List<Map<String, Object>> get summaryData {
     final List<Map<String, Object>> summary = [];
     for (var i = 0; i < chosenAnswers.length; i++) {
       summary.add({
@@ -29,7 +30,8 @@ class ResultsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final summaryData = getSummaryData();
+    // final summaryData = getSummaryData();
+
     final numberOfCorrectAnswers = summaryData
         .where((data) => data['user_answer'] == data['correct_answer'])
         .length;
@@ -46,9 +48,7 @@ class ResultsScreen extends StatelessWidget {
             style: GoogleFonts.lato(fontSize: 18, color: Colors.white),
           ),
           const SizedBox(height: 30),
-          // ...getSummaryData(questions).map((data) {
-          //   return QuestionsSummary(summaryData: [data]);
-          // }),
+
           QuestionsSummary(summaryData: summaryData),
 
           const SizedBox(height: 30),
